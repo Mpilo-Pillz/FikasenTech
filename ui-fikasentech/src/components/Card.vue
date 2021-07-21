@@ -21,6 +21,16 @@ export default defineComponent({
     },
   },
 
+  data() {
+    return {
+      projects: [],
+    };
+  },
+
+  mounted() {
+    this.fetchProjects();
+  },
+
   methods: {
     async fetchProjects() {
       const response = await fetch("http://localhost:1337/projects");
@@ -28,16 +38,6 @@ export default defineComponent({
       console.log(myProjects);
       this.projects = myProjects;
     },
-  },
-
-  mounted() {
-    this.fetchProjects();
-  },
-
-  data() {
-    return {
-      projects: [],
-    };
   },
 
   //   setup: () => {
