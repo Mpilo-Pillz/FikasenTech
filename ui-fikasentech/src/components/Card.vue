@@ -1,23 +1,23 @@
 <template>
   <hr />
   <h1>Mpi</h1>
-  <ul id="render-projects" v-for="project in projects" :key="project.id">
-    <li>{{ project.title }}</li>
-    <p>{{ project.description }}</p>
+  <ul id="render-projects" v-for="item in items" :key="item.id">
+    <li>{{ item.title }}</li>
+    <p>{{ item.description }}</p>
   </ul>
+  {{ items.length }}
   <hr />
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from "vue";
+import { defineComponent } from "vue";
 export default defineComponent({
   name: "Card",
 
   props: {
-    // eslint-disable-next-line vue/require-default-prop
-    msg: {
-      type: String,
-      required: false,
+    items: {
+      type: Array,
+      required: true,
     },
   },
 
@@ -26,29 +26,5 @@ export default defineComponent({
       projects: [],
     };
   },
-
-  mounted() {
-    this.fetchProjects();
-  },
-
-  methods: {
-    async fetchProjects() {
-      const response = await fetch("http://localhost:1337/projects");
-      const myProjects = await response.json();
-      console.log(myProjects);
-      this.projects = myProjects;
-    },
-  },
-
-  //   setup: () => {
-  //     console.log("Mounted");
-  //     let projects = ref([
-  //       { id: 2, title: "mpilo", deswcription: "pillzv topia" },
-  //     ]);
-
-  //     console.log("resso -->", projects);
-
-  //     // return { projects }; 3
-  //   },
 });
 </script>

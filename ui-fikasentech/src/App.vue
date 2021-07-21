@@ -1,21 +1,24 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
-  <Card />
+  <Project />
   <Reference />
+  <Projects />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
-import Card from "./components/Card.vue";
+import Project from "./components/Project.vue";
+import Projects from "./components/Projects.vue";
 import Reference from "./components/Reference.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     HelloWorld,
-    Card,
+    Project,
+    Projects,
     Reference,
   },
 });
