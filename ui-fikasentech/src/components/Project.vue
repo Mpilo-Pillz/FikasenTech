@@ -17,6 +17,7 @@ export default defineComponent({
   },
 
   mounted() {
+    console.log("MEEE");
     this.fetchProjects();
   },
 

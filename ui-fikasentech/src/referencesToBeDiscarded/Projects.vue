@@ -1,7 +1,7 @@
 <template><Card :items="projects" /></template>
 <script lang="ts">
 import { defineComponent } from "vue";
-import Card from "./Card.vue";
+import Card from "../components/Card.vue";
 export default defineComponent({
   name: "Projects",
   components: {

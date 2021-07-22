@@ -1,5 +1,5 @@
 <template>
-  <div>DETAILS - {{ details[0].description }}</div>
+  <div>DETAILS - {{ details }}</div>
 </template>
 
 <script lang="ts">
@@ -12,6 +12,9 @@ export default defineComponent({
       type: Array,
       required: true,
     },
+  },
+  mounted() {
+    console.log("deets", this.details);
   },
 });
 </script>
