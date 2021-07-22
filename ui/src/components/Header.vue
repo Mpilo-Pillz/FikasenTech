@@ -9,7 +9,7 @@
 
 <script lang="ts">
 import Vue, { defineComponent } from "vue";
-export default Vue.defineComponent({
-  name: "HelloWorld",
+export default defineComponent({
+  name: "Header",
 });
 </script>
