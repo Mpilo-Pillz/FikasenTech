@@ -7,13 +7,17 @@
   </ul>
   {{ items.length }}
   <hr />
+  <ItemDetails :details="items" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import ItemDetails from "./ItemDetails.vue";
 export default defineComponent({
   name: "Card",
-
+  components: {
+    ItemDetails,
+  },
   props: {
     items: {
       type: Array,
