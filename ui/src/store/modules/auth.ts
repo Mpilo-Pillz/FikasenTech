@@ -8,4 +8,8 @@ const getters = {
 
 const actions = {};
 
-const mutations = {};
+const mutations = {
+  setToken: (state: any, token: any) => {
+    state.token = token;
+  },
+};
