@@ -1,23 +1,21 @@
-interface StateAction {
-  commit: (mutationKey: string, mutationValue: any) => void;
-}
-
 const state = {
   token: null,
 };
 
 const getters = {
-  isLoggedIn: (state: any) => !!state.token,
+  isLoggedIn: (state) => !!state.token,
 };
 
 const actions = {
-  logout: ({ commit }: StateAction) => {
+  login: (credentials) => console.log("LOGGIN IN -->", credentials),
+
+  logout: ({ commit }) => {
     commit("setToken", null);
   },
 };
 
 const mutations = {
-  setToken: (state: any, token: any) => {
+  setToken: (state, token) => {
     state.token = token;
   },
 };

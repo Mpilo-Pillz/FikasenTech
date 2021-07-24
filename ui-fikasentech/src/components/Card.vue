@@ -10,10 +10,9 @@
   <ItemDetails :details="items" />
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script>
 import ItemDetails from "./ItemDetails.vue";
-export default defineComponent({
+export default {
   name: "Card",
   components: {
     ItemDetails,
@@ -30,5 +29,5 @@ export default defineComponent({
       projects: [],
     };
   },
-});
+};
 </script>

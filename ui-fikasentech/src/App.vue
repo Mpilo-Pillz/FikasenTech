@@ -1,18 +1,21 @@
 <template>
-  <Header />
-  <router-view />
+  <div id="nav">
+    <Header />
+    <router-view />
+  </div>
 </template>
-<script lang="ts">
-import { defineComponent } from "vue";
+
+<script>
 import Header from "./components/Header.vue";
 
-export default defineComponent({
+export default {
   name: "App",
   components: {
     Header,
   },
-});
+};
 </script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

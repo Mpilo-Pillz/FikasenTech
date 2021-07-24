@@ -3,9 +3,8 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
 import Card from "./Card.vue";
-export default defineComponent({
+export default {
   name: "Project",
   components: {
     Card,
@@ -29,5 +28,5 @@ export default defineComponent({
       this.projects = myProjects;
     },
   },
-});
+};
 </script>
