@@ -1,10 +1,10 @@
 <template>
-  <form @submit.prevent="onSubmit(email, password)">
+  <form @submit.prevent="onSubmit(identifier, password)">
     <fieldset class="form-group">
       <input
         class="form-control form-control-lg"
         type="text"
-        v-model="email"
+        v-model="identifier"
         placeholder="Email"
       />
     </fieldset>
@@ -22,21 +22,20 @@
 
 <script>
 // import { mapState } from "vuex";
-// import { LOGIN } from "@/store/actions.type";
+import { LOGIN } from "@/store/actions.type";
 export default {
   name: "Login",
   data() {
     return {
-      email: null,
+      identifier: null,
       password: null,
     };
   },
   methods: {
-    onSubmit(email, password) {
-      console.log(email, password);
-      //   this.$store
-      //     .dispatch(LOGIN, { email, password })
-      //     .then(() => this.$router.push({ name: "home" }));
+    onSubmit(identifier, password) {
+      console.log(identifier, password);
+      this.$store.dispatch(LOGIN, { identifier, password });
+      // .then(() => this.$router.push({ name: "home" }));
     },
   },
 };

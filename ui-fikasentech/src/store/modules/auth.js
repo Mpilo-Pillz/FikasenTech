@@ -1,5 +1,11 @@
+import { makeRequest } from "../../services/api.service";
+import { LOGIN, LOGOUT } from "../actions.type";
+import { SET_AUTH, PURGE_AUTH, SET_ERROR } from "../mutaions.type";
+
 const state = {
-  token: null,
+  errors: null,
+  user: {},
+  isAuthenticated: !!localStorage.getItem("accessToken"),
 };
 
 const getters = {
@@ -7,16 +13,33 @@ const getters = {
 };
 
 const actions = {
-  login: (credentials) => console.log("LOGGIN IN -->", credentials),
+  [LOGIN](context, credentials) {
+    return new Promise(() => {
+      console.log("State", credentials);
+      makeRequest
+        .post("/auth/local", credentials)
+        // .then(() => {
+        //   console.log();
+        //   // context.commit(SET_AUTH, data.user);
+        //   resolve("data");
+        // })
+        .catch(({ response }) => {
+          context.commit(SET_ERROR, response.data.errors);
+        });
+    });
+  },
 
-  logout: ({ commit }) => {
-    commit("setToken", null);
+  [LOGOUT](context) {
+    context.commit(PURGE_AUTH);
   },
 };
 
 const mutations = {
-  setToken: (state, token) => {
-    state.token = token;
+  [SET_AUTH](state, user) {
+    state.isAuthenticated = true;
+    state.user = user;
+    state.errors = {};
+    // JwtService.saveToken(state.user.token);
   },
 };
 
