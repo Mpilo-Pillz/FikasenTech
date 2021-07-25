@@ -1,22 +1,23 @@
+<style lang="scss" scoped>
+.card {
+  background-color: #fff;
+  border: solid #c5c5c5 1px;
+  min-height: 190px;
+}
+</style>
 <template>
   <hr />
   <h1>Mpi</h1>
-  <ul id="render-projects" v-for="item in items" :key="item.id">
-    <li>{{ item.title }}</li>
+  <div class="card" id="render-projects" v-for="item in items" :key="item.id">
+    <h3>{{ item.title }}</h3>
     <p>{{ item.description }}</p>
-  </ul>
-  {{ items.length }}
+  </div>
   <hr />
-  <ItemDetails :details="items" />
 </template>
 
 <script>
-import ItemDetails from "./ItemDetails.vue";
 export default {
   name: "Card",
-  components: {
-    ItemDetails,
-  },
   props: {
     items: {
       type: Array,
