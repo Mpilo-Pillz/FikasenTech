@@ -1,3 +1,15 @@
 <template>
-  <footer>Fikasentani Technologies 2021</footer>
+  <footer>Fikasentani Technologies {{ year }}</footer>
 </template>
+
+<script>
+export default {
+  name: "Footer",
+
+  data() {
+    return {
+      year: new Date().getFullYear(),
+    };
+  },
+};
+</script>
