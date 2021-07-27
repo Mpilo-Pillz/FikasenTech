@@ -1,12 +1,19 @@
 <style lang="scss" scoped>
+a {
+  font-weight: 800;
+  text-decoration: none;
+}
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+
+  padding: 2rem;
 }
 
 .nav-item {
-  border: blue;
+  text-decoration: none;
+  margin: 2rem;
 }
 </style>
 <template>

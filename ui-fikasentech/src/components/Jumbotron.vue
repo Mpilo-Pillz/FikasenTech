@@ -6,6 +6,20 @@
   margin: 10px;
   padding: 10px 20px;
 }
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron {
+  background-image: url("https://res-console.cloudinary.com/mpilopillz/thumbnails/v1/image/upload/v1602184182/c3dheml0dW5lcy9EZWxsMTYwMjE4NDE4MTc1OA==/folder_thumbnail/d184OCxoXzg4LGNfdGh1bWI=");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 .profile-pic {
   position: relative;
   border-radius: 50%;
@@ -20,7 +34,7 @@
 }
 </style>
 <template>
-  <section class="flex-center">
+  <section class="flex-center jumbotron">
     <img
       class="profile-pic"
       src="https://lh3.googleusercontent.com/pWGKsbC67uKkiC4xQKOPM4juc2DCUN9oqsBKqaqpRawSTFAeYfPTW-MhTnvFGEUJ3nMJoqsbY3x6rs_uqZb9nts9npWdjgUtI0W3jhDfYd9LuSa7DFj6q9R5apEXi0JyTiuSJqQV=w2400"

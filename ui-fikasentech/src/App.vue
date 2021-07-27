@@ -19,27 +19,36 @@ export default {
 </script>
 
 <style lang="scss">
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// #app {
+//   max-width: 150rem;
+// }
+
+html {
+  //defining what 1rem is
+  font-size: 62.5%; //1rem = 10px, 10/16 = 62.5%
+}
+
 body {
-  background-color: #c5c5c5;
-}
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  background-color: #c7c7c7;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  // margin: 0 30rem;
 }
 
-#nav {
-  padding: 30px;
+.router-link-exact-active {
+  color: #42b983;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+::selection {
+  background-color: #fff;
+  color: #fff;
 }
 </style>
