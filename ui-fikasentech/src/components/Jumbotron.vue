@@ -1,7 +1,7 @@
 <style lang="scss" scoped>
 .btn {
   border: none;
-  border-radius: 5px;
+  // border-radius: 5px;
   font-weight: 800;
   margin: 2rem 1rem;
   padding: 10px 20px;

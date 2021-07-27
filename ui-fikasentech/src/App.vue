@@ -44,6 +44,20 @@ body {
   // margin: 0 30rem;
 }
 
+.card {
+  line-height: 1.5;
+  margin: 2rem auto;
+  max-width: 150rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.fikasentani-heading {
+  text-align: center;
+  // font-size: 2rem;
+  margin: 2rem;
+}
+
 .flex-row-center {
   display: flex;
   flex-direction: row;

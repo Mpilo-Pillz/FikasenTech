@@ -1,4 +1,5 @@
 <template>
+  <h1 class="fikasentani-heading">Projects</h1>
   <Card :items="projects" />
 </template>
 

@@ -6,13 +6,15 @@
 }
 </style>
 <template>
-  <hr />
-  <h1>Mpi</h1>
-  <div class="card" id="render-projects" v-for="item in items" :key="item.id">
+  <div
+    class="card shadow-lg"
+    id="render-projects"
+    v-for="item in items"
+    :key="item.id"
+  >
     <h3>{{ item.title }}</h3>
     <p>{{ item.description }}</p>
   </div>
-  <hr />
 </template>
 
 <script>

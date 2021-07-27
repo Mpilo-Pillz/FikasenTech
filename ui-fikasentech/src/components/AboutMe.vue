@@ -8,11 +8,7 @@
 }
 </style>
 <template>
-  <div
-    v-for="summary in mySummary"
-    :key="summary.id"
-    class="card-summary shadow-lg"
-  >
+  <div v-for="summary in mySummary" :key="summary.id" class="card shadow-lg">
     <h2>{{ summary.title }}</h2>
     <p>{{ summary.content }}</p>
   </div>
