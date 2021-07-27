@@ -1,4 +1,11 @@
 <style lang="scss" scoped>
+.btn {
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  margin: 10px;
+  padding: 10px 20px;
+}
 .profile-pic {
   position: relative;
   border-radius: 50%;
@@ -9,6 +16,7 @@
   border: 15px solid transparent;
   z-index: 9999;
   transition: all 0.3s ease-out;
+  object-fit: cover;
 }
 </style>
 <template>
