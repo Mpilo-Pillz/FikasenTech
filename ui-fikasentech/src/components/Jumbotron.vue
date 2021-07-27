@@ -3,8 +3,9 @@
   border: none;
   border-radius: 5px;
   font-weight: 800;
-  margin: 10px;
+  margin: 2rem 1rem;
   padding: 10px 20px;
+  width: 20rem;
 }
 
 .flex-center {
@@ -15,10 +16,10 @@
 }
 
 .jumbotron {
-  background-image: url("https://res-console.cloudinary.com/mpilopillz/thumbnails/v1/image/upload/v1602184182/c3dheml0dW5lcy9EZWxsMTYwMjE4NDE4MTc1OA==/folder_thumbnail/d184OCxoXzg4LGNfdGh1bWI=");
-  background-size: cover; /* <------ */
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: #000;
+  color: #fff;
+  line-height: 30px;
+  padding: 2rem 0 5rem 0;
 }
 .profile-pic {
   position: relative;
@@ -26,7 +27,7 @@
   height: 180px;
   width: 180px;
   padding: 0;
-  margin: 0;
+  margin: 2rem 0;
   border: 15px solid transparent;
   z-index: 9999;
   transition: all 0.3s ease-out;
@@ -41,9 +42,11 @@
       alt="fikasentani"
     />
     <h1>MT Fikasentani KN Dlamini</h1>
-    <h2>Front End Developer, Software Developer in Test</h2>
-    <button class="btn">Hire Me</button>
-    <button class="btn">Download CV</button>
+    <h4>Front End Developer, Software Developer in Test</h4>
+    <div class="flex-row-center">
+      <button class="btn">Hire Me</button>
+      <button class="btn">Download CV</button>
+    </div>
   </section>
 </template>
 

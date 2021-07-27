@@ -39,8 +39,14 @@ html {
 body {
   background-color: #c7c7c7;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
   font-size: 1.6rem;
   // margin: 0 30rem;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
 }
 
 .router-link-exact-active {
