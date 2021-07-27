@@ -4,11 +4,15 @@ a {
   text-decoration: none;
 }
 .header {
+  padding: 2rem;
+}
+
+.limit-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  padding: 2rem;
+  margin: 0 auto;
+  max-width: 150rem;
 }
 
 .nav-item {
@@ -18,15 +22,17 @@ a {
 </style>
 <template>
   <header class="header">
-    <div class="fika-logo">FIKASENTECH</div>
-    <div id="nav">
-      <span class="nav-item"> <router-link to="/">Home</router-link> </span>
-      <span class="nav-item">
-        <router-link to="/about">About</router-link>
-      </span>
-      <span class="nav-item">
-        <router-link to="/login">Login</router-link>
-      </span>
+    <div class="limit-width">
+      <div class="fika-logo">FIKASENTECH</div>
+      <div id="nav">
+        <span class="nav-item"> <router-link to="/">Home</router-link> </span>
+        <span class="nav-item">
+          <router-link to="/about">About</router-link>
+        </span>
+        <span class="nav-item">
+          <router-link to="/login">Login</router-link>
+        </span>
+      </div>
     </div>
   </header>
 </template>
