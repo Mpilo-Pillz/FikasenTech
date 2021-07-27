@@ -6,6 +6,13 @@
   margin: 2rem 1rem;
   padding: 10px 20px;
   width: 20rem;
+
+  &:hover {
+    background-color: #575454;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 900;
+  }
 }
 
 .flex-center {

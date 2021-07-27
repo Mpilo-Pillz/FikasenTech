@@ -37,7 +37,7 @@ html {
 }
 
 body {
-  background-color: #c7c7c7;
+  background-color: #dfdfdf;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
@@ -51,6 +51,10 @@ body {
 
 .router-link-exact-active {
   color: #42b983;
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
 ::selection {
