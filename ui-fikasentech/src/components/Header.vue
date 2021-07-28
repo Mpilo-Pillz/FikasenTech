@@ -27,6 +27,9 @@ a {
       <nav id="nav">
         <span class="nav-item"> <router-link to="/">Home</router-link> </span>
         <span class="nav-item">
+          <router-link to="/projects">Projects</router-link>
+        </span>
+        <span class="nav-item">
           <router-link to="/about">About</router-link>
         </span>
         <span class="nav-item">
