@@ -3,6 +3,20 @@
   background-color: #fff;
   border: solid #c5c5c5 1px;
   min-height: 190px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  &__article {
+    max-width: 30rem;
+    padding: 2rem;
+  }
+  &__img {
+    height: 40rem;
+    width: 70rem;
+  }
 }
 
 ul.stack-items {
@@ -23,12 +37,20 @@ ul.stack-items {
     v-for="item in items"
     :key="item.id"
   >
-    <h3>{{ item.title }}</h3>
-    <p>{{ item.description }}</p>
-    <h4>Built With:</h4>
-    <ul class="stack-items">
-      <li v-for="stack in item.stacks" :key="stack.id">{{ stack.name }}</li>
-    </ul>
+    <article class="project__article">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+      <h4>Built With:</h4>
+      <ul class="stack-items">
+        <li v-for="stack in item.stacks" :key="stack.id">{{ stack.name }}</li>
+      </ul>
+      <a class="btn" :href="item.url">See the Website</a>
+    </article>
+    <img
+      class="project__img"
+      src="https://picsum.photos/200/300?grayscale"
+      :alt="item.title"
+    />
   </div>
 </template>
 
