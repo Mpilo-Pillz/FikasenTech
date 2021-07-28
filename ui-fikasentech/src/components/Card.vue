@@ -14,6 +14,10 @@
   >
     <h3>{{ item.title }}</h3>
     <p>{{ item.description }}</p>
+    <h4>Built With:</h4>
+    <ul v-for="stack in item.stacks" :key="stack.id">
+      <li>{{ stack.name }}</li>
+    </ul>
   </div>
 </template>
 
@@ -30,6 +34,7 @@ export default {
   data() {
     return {
       projects: [],
+      stacks: [],
     };
   },
 };
