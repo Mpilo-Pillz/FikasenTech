@@ -1,3 +1,5 @@
+import { makeRequest } from "../../services/api.service";
+
 const state = {
   projects: [],
 };
@@ -7,7 +9,9 @@ const getters = {
 };
 
 const actions = {
-  fetchProjects() {},
+  fetchProjects() {
+    makeRequest.get("/projects");
+  },
 };
 
 const mutations = {
@@ -15,3 +19,5 @@ const mutations = {
     state.projects = projects;
   },
 };
+
+export default { state, getters, actions, mutations };
