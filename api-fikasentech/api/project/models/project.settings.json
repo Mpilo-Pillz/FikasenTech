@@ -36,6 +36,9 @@
     },
     "stacks": {
       "collection": "stack"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
