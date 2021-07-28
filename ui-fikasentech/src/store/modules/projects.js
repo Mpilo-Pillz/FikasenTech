@@ -9,8 +9,10 @@ const getters = {
 };
 
 const actions = {
-  fetchProjects() {
-    makeRequest.get("/projects");
+  async fetchProjects({ commit }) {
+    const response = await makeRequest.get("/projects");
+    console.log(response);
+    commit("setProjects");
   },
 };
 
