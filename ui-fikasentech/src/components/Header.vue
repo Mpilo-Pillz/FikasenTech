@@ -24,7 +24,7 @@ a {
   <header class="header">
     <div class="limit-width">
       <div class="fika-logo">FIKASENTECH</div>
-      <div id="nav">
+      <nav id="nav">
         <span class="nav-item"> <router-link to="/">Home</router-link> </span>
         <span class="nav-item">
           <router-link to="/about">About</router-link>
@@ -32,7 +32,7 @@ a {
         <span class="nav-item">
           <router-link to="/login">Login</router-link>
         </span>
-      </div>
+      </nav>
     </div>
   </header>
 </template>
