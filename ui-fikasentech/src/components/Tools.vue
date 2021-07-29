@@ -4,7 +4,7 @@
   <div class="card shadow-lg">
     <div v-for="tool in myTools" :key="tool.id">
       <label>{{ tool.name }}</label>
-      <progress :id="tool.id" value="50" max="100">32%</progress>
+      <progress :id="tool.id" :value="tool.proficiency" max="100">32%</progress>
     </div>
   </div>
 </template>
