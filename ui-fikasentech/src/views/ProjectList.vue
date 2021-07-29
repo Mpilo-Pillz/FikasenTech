@@ -1,11 +1,15 @@
 <template>
-  <section>Projeccts</section>
+  <section>
+    Projeccts
+    {{ allProjects.length }}
+  </section>
 </template>
 
 <script>
-import { mapActions } from "vuex";
+import { mapActions, mapGetters } from "vuex";
 export default {
   name: "ProjectList",
+  computed: mapGetters(["allProjects"]),
   methods: mapActions(["fetchProjects"]),
   created() {
     this.fetchProjects();
