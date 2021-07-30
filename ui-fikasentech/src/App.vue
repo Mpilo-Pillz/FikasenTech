@@ -63,6 +63,11 @@ body {
   flex-direction: row;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .router-link-exact-active {
   color: #42b983;
 }
