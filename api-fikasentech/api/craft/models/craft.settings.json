@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "crafts",
+  "info": {
+    "name": "craft"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

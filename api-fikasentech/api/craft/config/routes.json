@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/crafts",
+      "handler": "craft.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/crafts/count",
+      "handler": "craft.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/crafts/:id",
+      "handler": "craft.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/crafts",
+      "handler": "craft.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/crafts/:id",
+      "handler": "craft.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/crafts/:id",
+      "handler": "craft.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
