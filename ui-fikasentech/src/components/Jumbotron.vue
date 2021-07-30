@@ -42,7 +42,7 @@
 }
 </style>
 <template>
-  <section class="flex-center jumbotron">
+  <section class="flex-center jumbotron compnent--mb">
     <img
       class="profile-pic"
       src="https://lh3.googleusercontent.com/pWGKsbC67uKkiC4xQKOPM4juc2DCUN9oqsBKqaqpRawSTFAeYfPTW-MhTnvFGEUJ3nMJoqsbY3x6rs_uqZb9nts9npWdjgUtI0W3jhDfYd9LuSa7DFj6q9R5apEXi0JyTiuSJqQV=w2400"

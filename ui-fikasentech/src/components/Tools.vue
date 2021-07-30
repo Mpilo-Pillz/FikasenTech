@@ -18,7 +18,8 @@
 </style>
 
 <template>
-  <section class="card shadow-lg">
+  <h1 class="fikasentani-heading">Skills</h1>
+  <section class="card shadow-lg compnent--mb">
     <h1>My Tool Box</h1>
     <div class="tools">
       <div

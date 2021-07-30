@@ -44,12 +44,21 @@ body {
   // margin: 0 30rem;
 }
 
+.element-center--width {
+  margin: auto;
+  max-width: 150rem;
+}
+
 .card {
   line-height: 1.5;
   margin: 2rem auto;
   max-width: 150rem;
   padding: 2rem;
   background-color: #fff;
+}
+
+.compnent--mb {
+  margin-bottom: 5rem;
 }
 
 .fikasentani-heading {
@@ -63,9 +72,28 @@ body {
   flex-direction: row;
 }
 
+.flex-space-evenly {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.u-margin {
+  &__md {
+    margin: 2rem;
+  }
+  &__tb {
+    margin: 2rem 0;
+  }
 }
 
 .router-link-exact-active {
