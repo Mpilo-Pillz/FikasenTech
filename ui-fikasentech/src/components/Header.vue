@@ -30,7 +30,7 @@ a {
           <router-link to="/projects">Projects</router-link>
         </span>
         <span class="nav-item">
-          <router-link to="/about">About</router-link>
+          <router-link to="/training">Training</router-link>
         </span>
         <span class="nav-item">
           <router-link to="/login">Login</router-link>
