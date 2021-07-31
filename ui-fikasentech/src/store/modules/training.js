@@ -5,12 +5,12 @@ const state = {
 };
 
 const getters = {
-  allTraining: (state) => state.training,
+  allTrainings: (state) => state.training,
 };
 
 const actions = {
   async fetchTraining({ commit }) {
-    const response = await makeRequest.get("/training");
+    const response = await makeRequest.get("/trainings");
     commit("setTraining", response);
   },
 };
