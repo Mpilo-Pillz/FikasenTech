@@ -116,3 +116,4 @@ build
 dist
 dist-ssr
 *.local
+*.svg
