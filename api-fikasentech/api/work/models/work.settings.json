@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "works",
   "info": {
-    "name": "work"
+    "name": "work",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -25,6 +26,9 @@
     },
     "summary": {
       "type": "text"
+    },
+    "applications": {
+      "collection": "application"
     }
   }
 }
