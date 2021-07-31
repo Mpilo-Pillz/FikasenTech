@@ -49,7 +49,7 @@
       alt="fikasentani"
     />
     <h1>MT Fikasentani KN Dlamini</h1>
-    <h4>Front End Developer, Software Developer in Test</h4>
+    <h4>Software Developer, Software Development Engineer in Test</h4>
     <div class="flex-row-center">
       <button class="btn">Hire Me</button>
       <button class="btn">Download CV</button>
