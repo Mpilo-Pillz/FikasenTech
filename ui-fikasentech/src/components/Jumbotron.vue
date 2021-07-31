@@ -7,6 +7,10 @@
   padding: 10px 20px;
   width: 20rem;
 
+  &__link {
+    text-decoration: none;
+  }
+
   &:hover {
     background-color: #575454;
     color: #fff;

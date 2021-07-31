@@ -43,6 +43,21 @@ body {
   font-size: 1.6rem;
   // margin: 0 30rem;
 }
+.btn {
+  border: none;
+  // border-radius: 5px;
+  font-weight: 800;
+  margin: 2rem 1rem;
+  padding: 10px 20px;
+  width: 20rem;
+
+  &:hover {
+    background-color: #575454;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 900;
+  }
+}
 
 .element-center--width {
   margin: auto;

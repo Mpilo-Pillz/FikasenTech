@@ -8,6 +8,21 @@
   justify-content: space-between;
 }
 
+.btn__link {
+  background-color: #2196f3;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1.5rem 2.5rem;
+  text-decoration: none;
+}
+
+.icon-container {
+  height: 3rem;
+  & > img {
+    height: 100%;
+  }
+}
+
 .project {
   &__article {
     max-width: 30rem;
@@ -42,9 +57,14 @@ ul.stack-items {
       <p>{{ item.description }}</p>
       <h4>Built With:</h4>
       <ul class="stack-items">
-        <li v-for="stack in item.stacks" :key="stack.id">{{ stack.name }}</li>
+        <li class="flex-row" v-for="stack in item.stacks" :key="stack.id">
+          <div class="icon-container">
+            <img :src="stack.thumbnail" alt="" />
+          </div>
+          <span>{{ stack.name }}</span>
+        </li>
       </ul>
-      <a class="btn" :href="item.url">See the Website</a>
+      <a class="btn__link" :href="item.url">See the Website</a>
     </article>
     <img
       class="project__img"
