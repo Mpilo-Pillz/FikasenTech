@@ -14,7 +14,7 @@
     class="card shadow-lg compnent--mb"
   >
     <h2>{{ summary.title }}</h2>
-    <p>{{ summary.content }}</p>
+    <p class="font-weight--300">{{ summary.content }}</p>
   </div>
 </template>
 

@@ -1,6 +1,12 @@
 <style lang="scss" scoped>
 .crafts-card {
   width: 49rem;
+
+  & > img {
+    height: 6rem;
+    margin: auto;
+    width: 6rem;
+  }
 }
 </style>
 
@@ -13,8 +19,9 @@
         v-for="craft in crafts"
         :key="craft.id"
       >
+        <img :src="craft.icon" :alt="craft.title" />
         <h1>{{ craft.title }}</h1>
-        <p>{{ craft.description }}</p>
+        <p class="font-weight--300">{{ craft.description }}</p>
       </div>
     </div>
   </section>

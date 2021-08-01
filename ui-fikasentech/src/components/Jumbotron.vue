@@ -28,6 +28,12 @@
 
 .jumbotron {
   background: #000;
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
+  background-image: url("https://images.unsplash.com/photo-1616763355603-9755a640a287?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  // background-image: url("https://images.unsplash.com/photo-1489257712451-3a66755ca19c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  // background-image: url("https://images.unsplash.com/photo-1547658719-da2b51169166?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29yayUyMHN0YXRpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   line-height: 30px;
   padding: 2rem 0 5rem 0;

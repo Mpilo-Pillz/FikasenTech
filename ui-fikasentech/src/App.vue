@@ -78,7 +78,8 @@ body {
 
 .fikasentani-heading {
   text-align: center;
-  // font-size: 2rem;
+  font-size: 3.2rem;
+  font-weight: bolder;
   margin: 2rem;
 }
 
@@ -100,6 +101,10 @@ body {
 
 .flex-row {
   display: flex;
+}
+
+.font-weight--300 {
+  font-weight: 300;
 }
 
 .u-margin {

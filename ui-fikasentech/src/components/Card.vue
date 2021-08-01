@@ -2,16 +2,26 @@
 .card {
   background-color: #fff;
   border: solid #c5c5c5 1px;
-  min-height: 190px;
+  height: 30rem;
   padding: 0;
   display: flex;
   justify-content: space-between;
+
+  &--img {
+    height: 100%;
+  }
+
+  &__text {
+    color: #2196f3;
+  }
 }
 
 .btn__link {
+  display: inline-block;
   background-color: #2196f3;
   border-radius: 5px;
   color: #fff;
+  margin: 1rem 0 0 0;
   padding: 1.5rem 2.5rem;
   text-decoration: none;
 }
@@ -20,6 +30,7 @@
   height: 3rem;
   & > img {
     height: 100%;
+    margin-right: 0.5rem;
   }
 }
 
@@ -29,8 +40,12 @@
     padding: 2rem;
   }
   &__img {
-    height: 40rem;
+    height: 100%;
     width: 70rem;
+  }
+  &--paragraph {
+    font-weight: 300;
+    margin: 1.5rem 0;
   }
 }
 
@@ -54,21 +69,21 @@ ul.stack-items {
   >
     <article class="project__article">
       <h3>{{ item.title }}</h3>
-      <p>{{ item.description }}</p>
+      <p class="project--paragraph">{{ item.description }}</p>
       <h4>Built With:</h4>
       <ul class="stack-items">
         <li class="flex-row" v-for="stack in item.stacks" :key="stack.id">
           <div class="icon-container">
-            <img :src="stack.thumbnail" alt="" />
+            <img class="icon-margin" :src="stack.thumbnail" :alt="stack.name" />
           </div>
-          <span>{{ stack.name }}</span>
+          <span class="card__text">{{ stack.name }}</span>
         </li>
       </ul>
       <a class="btn__link" :href="item.url">See the Website</a>
     </article>
     <img
       class="project__img"
-      src="https://picsum.photos/200/300?grayscale"
+      src="https://picsum.photos/200/300"
       :alt="item.title"
     />
   </div>
