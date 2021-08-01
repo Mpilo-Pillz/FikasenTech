@@ -4,6 +4,7 @@
     <AboutMe />
     <Crafts />
     <Tools />
+    <WorkHistory />
     <Project />
   </div>
 </template>
@@ -15,6 +16,7 @@ import Jumbotron from "@/components/Jumbotron.vue";
 import Tools from "@/components/Tools.vue";
 import AboutMe from "@/components/AboutMe.vue";
 import Crafts from "@/components/Crafts.vue";
+import WorkHistory from "@/components/WorkHistory.vue";
 export default {
   name: "Home",
   components: {
@@ -22,6 +24,7 @@ export default {
     AboutMe,
     Crafts,
     Tools,
+    WorkHistory,
     Project,
   },
 };
