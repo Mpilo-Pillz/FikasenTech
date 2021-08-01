@@ -8,6 +8,9 @@
     width: 6rem;
   }
 }
+.crafts--title {
+  margin: 1rem auto;
+}
 </style>
 
 <template>
@@ -20,7 +23,7 @@
         :key="craft.id"
       >
         <img :src="craft.icon" :alt="craft.title" />
-        <h1>{{ craft.title }}</h1>
+        <h2 class="crafts--title">{{ craft.title }}</h2>
         <p class="font-weight--300">{{ craft.description }}</p>
       </div>
     </div>

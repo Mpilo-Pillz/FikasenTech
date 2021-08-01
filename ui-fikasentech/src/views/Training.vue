@@ -1,7 +1,41 @@
 <style lang="scss" scoped>
 .training-certificate {
-  max-width: 50rem;
-  max-height: 50rem;
+  width: 100%;
+  max-height: 35rem;
+}
+.training {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &-certificate {
+    display: block;
+  }
+  &__header {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  &-item {
+    border-radius: 5px;
+    margin: 1rem;
+    background-color: #000;
+  }
+
+  &__text {
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  &__link {
+    color: #fff;
+    text-decoration: underline;
+  }
 }
 </style>
 <template>
@@ -11,18 +45,30 @@
       <div
         v-for="training in allTrainings"
         :key="training.id"
-        class="training-item"
+        class="training-item shadow"
       >
         <img class="training-certificate" :src="training.img" alt="" />
-        <h2>
-          <a :href="training.courselink">{{ training.name }}</a>
-        </h2>
-        <p>
-          <strong>Duration</strong>: <span>{{ training.hours }}</span>
-          <strong>Training Institution</strong>:
-          <span>{{ training.provider }}</span> <strong>Instructor</strong>:
-          <a :href="training.instructorprofile">{{ training.instructor }}</a>
-        </p>
+        <section class="training__text">
+          <span>
+            <a class="training__header" :href="training.courselink"
+              ><em>{{ training.name }}</em></a
+            >
+          </span>
+
+          <div>
+            <strong>Duration</strong>: <span>{{ training.hours }} hours</span>
+          </div>
+          <div>
+            <strong>Training Institution</strong>:
+            <span>{{ training.provider }}</span>
+          </div>
+          <div>
+            <strong>Instructor</strong>:
+            <a class="training__link" :href="training.instructorprofile">{{
+              training.instructor
+            }}</a>
+          </div>
+        </section>
       </div>
     </div>
   </section>
