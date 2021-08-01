@@ -17,7 +17,7 @@ const actions = {
 
 const mutations = {
   setWorkHistory: (state, workHistory) => {
-    state.workHistory = workHistory;
+    state.workHistory = workHistory.reverse();
   },
 };
 

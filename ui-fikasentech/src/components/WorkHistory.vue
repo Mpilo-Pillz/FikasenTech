@@ -1,12 +1,39 @@
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.card {
+  padding: 0;
+}
+.employer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(32, 29, 29);
+  color: #fff;
+  line-height: 2;
+  min-width: 35rem;
+  text-align: center;
+}
+
+.work-summary {
+  line-height: 2;
+  padding: 2rem;
+}
+</style>
 <template>
   <section class="">
-    <h1>Work History</h1>
-    <div class="card flex-row" v-for="work in allWorkHistorys" :key="work.id">
-      <div class="employer">
-        <h2>{{ work.employer }}</h2>
-      </div>
+    <h1 class="fikasentani-heading">Work History</h1>
+    <div
+      class="card flex-row shadow-lg"
+      v-for="work in allWorkHistorys"
+      :key="work.id"
+    >
+      <section class="employer">
+        <div class="employer--heading">
+          <h4>{{ work.start }} - {{ work.end }}</h4>
+          <h2>{{ work.employer }}</h2>
+        </div>
+      </section>
       <div class="work-summary">
+        <h2>{{ work.position }}</h2>
         <p>{{ work.summary }}</p>
       </div>
     </div>

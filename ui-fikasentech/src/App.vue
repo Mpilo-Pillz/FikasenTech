@@ -117,7 +117,9 @@ body {
 }
 
 .router-link-exact-active {
-  color: #42b983;
+  color: #000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  padding: 2rem;
 }
 
 .shadow {

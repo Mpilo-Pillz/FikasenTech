@@ -1,4 +1,13 @@
 <style lang="scss" scoped>
+.card {
+  background-color: #dfdfdf;
+  color: #000;
+  max-width: 100rem;
+}
+h1 {
+  margin: 1rem auto;
+  text-align: center;
+}
 .training-certificate {
   width: 100%;
   max-height: 35rem;
@@ -40,7 +49,16 @@
 </style>
 <template>
   <section class="about">
-    <h1>This is an about page</h1>
+    <div class="card shadow-lg">
+      <h1>Continous Learning</h1>
+      <p>
+        I have completed a minimum of 230 hours doing coding boot camps on Udemy
+        with certificates of completion obtained. I use Udemy, YouTube, Head
+        First Programming text book series and Developer Documentation (mostly
+        MDN and W3Schools) as my source of learning. I learn by doing (coding),
+        applying my knowledge by building web apps.
+      </p>
+    </div>
     <div class="training">
       <div
         v-for="training in allTrainings"

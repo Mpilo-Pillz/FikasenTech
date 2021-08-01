@@ -18,7 +18,7 @@
     <h1 class="fikasentani-heading">Services</h1>
     <div class="flex-row">
       <div
-        class="card flex-space-evenly crafts-card"
+        class="card flex-space-evenly crafts-card shadow-lg"
         v-for="craft in crafts"
         :key="craft.id"
       >

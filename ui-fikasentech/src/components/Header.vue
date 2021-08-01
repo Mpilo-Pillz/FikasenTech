@@ -1,5 +1,6 @@
 <style lang="scss" scoped>
 a {
+  color: #000;
   font-weight: 800;
   text-decoration: none;
 }
