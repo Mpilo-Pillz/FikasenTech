@@ -425,6 +425,12 @@ CLASSES
               >
             </h4>
             <h4>
+              <ion-icon name="logo-web-component"></ion-icon>
+              <a href="https://fikasentech.web.app/" class="link--decoration"
+                >My Website</a
+              >
+            </h4>
+            <h4>
               <ion-icon name="logo-linkedin"></ion-icon>
               <a
                 href="https://www.linkedin.com/in/mpilo-dlamini-38600b149/"
