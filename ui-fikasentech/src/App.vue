@@ -119,7 +119,7 @@ body {
 
 .router-link-exact-active {
   color: #000;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding: 2rem;
 }
 
@@ -143,6 +143,12 @@ p {
 @media only screen and (max-width: 1100px) {
   .btn {
     margin: 0.5rem;
+  }
+  .router-link-exact-active {
+    color: #000;
+    border-bottom: 2px solid black;
+    box-shadow: none;
+    padding: 0.5rem;
   }
 }
 </style>

@@ -16,6 +16,10 @@ a {
   max-width: 150rem;
 }
 
+#mobile-nav {
+  display: none;
+}
+
 .nav-item {
   text-decoration: none;
   margin: 2rem;
@@ -23,6 +27,18 @@ a {
 
 @media only screen and (max-width: 1100px) {
   /*Big smartphones [426px -> 600px]*/
+  #mobile-nav {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .mobile-nav-item {
+    // margin: 1rem;
+  }
   #nav {
     display: none;
     padding: 0;
@@ -51,6 +67,21 @@ a {
           <router-link to="/training">Training</router-link>
         </span>
         <span class="nav-item">
+          <router-link to="/cv">CV</router-link>
+        </span>
+      </nav>
+
+      <nav id="mobile-nav">
+        <span class="mobile-nav-item">
+          <router-link to="/">Home</router-link>
+        </span>
+        <span class="mobile-nav-item">
+          <router-link to="/projects">Projects</router-link>
+        </span>
+        <span class="mobile-nav-item">
+          <router-link to="/training">Training</router-link>
+        </span>
+        <span class="mobile-nav-item">
           <router-link to="/cv">CV</router-link>
         </span>
       </nav>

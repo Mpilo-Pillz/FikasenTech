@@ -24,6 +24,8 @@
 
 @media only screen and (max-width: 1100px) {
   .employer {
+    width: auto;
+    min-width: 0;
     &--align {
       display: flex;
       flex-direction: column;

@@ -60,7 +60,7 @@ ul.stack-items {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
   .card {
     background-color: #fff;
     border: solid #c5c5c5 1px;

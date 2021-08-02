@@ -27,7 +27,7 @@ const actions = {
       },
       {
         id: 2,
-        employer: "Osiris Trading Powering Betway",
+        employer: "Osiris Trading / Betway",
         start: "November 2018",
         end: "April 2021",
         position: "JS Frontend Engineer at",

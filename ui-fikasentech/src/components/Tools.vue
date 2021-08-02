@@ -15,7 +15,7 @@
     width: 100%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
   .tools {
     &__item {
       width: 100%;
