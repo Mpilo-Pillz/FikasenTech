@@ -1,5 +1,6 @@
 <style lang="scss" scoped>
 .btn {
+  background-color: #fff;
   border: none;
   // border-radius: 5px;
   font-weight: 800;
@@ -61,8 +62,8 @@
     <h1>MT Fikasentani KN Dlamini</h1>
     <h4>Software Developer, Software Development Engineer in Test</h4>
     <div class="flex-row-center">
-      <button class="btn">Hire Me</button>
-      <button class="btn">Download CV</button>
+      <button class="btn">Employment History</button>
+      <button class="btn" @click="goToCV">View CV</button>
     </div>
   </section>
 </template>
@@ -70,5 +71,10 @@
 <script>
 export default {
   name: "Jumbotron",
+  methods: {
+    goToCV() {
+      this.$router.push("cv");
+    },
+  },
 };
 </script>

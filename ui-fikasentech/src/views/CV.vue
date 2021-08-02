@@ -528,6 +528,34 @@ CLASSES
               <li>Cucumber / SpecFlow</li>
               <li>JMeter</li>
             </ul>
+
+            <h3 class="stack cv-margin-bottom--sm cv-margin-top--md">
+              Formal Education
+            </h3>
+            <h3 class="cv-margin-bottom--sm cv-margin-top--sm">
+              Higer Education
+            </h3>
+            <ul class="ul__list-style--inside ul__padding--sides">
+              <li>
+                Sifundzani High School - Internation General Certification of
+                Secondary Education
+              </li>
+              <li>
+                Sifundzani High School - Higer Internation General Certification
+                of Secondary Education
+              </li>
+              <li>Sifundzani High School - Advanced Subsidiary Level</li>
+            </ul>
+            <h3 class="cv-margin-bottom--sm cv-margin-top--sm">
+              Higer Education
+            </h3>
+            <ul class="ul__list-style--inside ul__padding--sides">
+              <li>
+                PC Training and Business College - Higer Certificate in IT
+              </li>
+              <li>ISTQB - Certified Testing Foundations</li>
+              <li>ISTQB - Certified Agile Tester</li>
+            </ul>
           </div>
           <hr class="display-none" />
           <button class="btn display-none" id="closeBackdrop">Close</button>
@@ -709,6 +737,14 @@ CLASSES
           athletics, boxing and mixed martial arts. I love to exercise, As much
           as I am a fan of functional programming, I am also equally a fan of
           Functional Fitness Training and High Intensity Interval Training.
+        </section>
+        <section class="about-me">
+          <div class="text-align--center">
+            <h1 class="about-me-heading cv--underline">References</h1>
+          </div>
+
+          <br />
+          <br />
         </section>
       </main>
     </div>
