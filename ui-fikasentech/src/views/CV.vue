@@ -51,6 +51,10 @@ main {
   /* Note to self, use this for further styling of detals*/
 }
 
+.contact-margin-left {
+  margin-left: 1rem;
+}
+
 .contact-details--font {
   //   font-size: 0.8rem;
   font-size: 1.3rem;
@@ -309,14 +313,19 @@ CLASSES
     border-bottom: 2px solid white;
   }
 
+  .job-summary {
+    padding: 2rem;
+  }
+
   .link--decoration {
     text-decoration: none;
     border-bottom: 1px solid lightgreen;
+    margin-left: 1rem;
   }
 
   .link--decoration:hover {
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: lightgreen;
   }
 
@@ -393,11 +402,13 @@ CLASSES
           <div class="contact-details contact-details--font cv--underline">
             <h4>
               <ion-icon name="mail-outline"></ion-icon>
-              mpilo.pillz@gmail.com
+              <span class="contact-margin-left">mpilo.pillz@gmail.com</span>
             </h4>
             <h4>
               <ion-icon name="location-outline"></ion-icon>
-              Johannesburg, South Africa
+              <span class="contact-margin-left"
+                >Johannesburg, South Africa</span
+              >
             </h4>
             <h4>
               <ion-icon name="logo-github"></ion-icon>
@@ -423,7 +434,8 @@ CLASSES
             </h4>
             <h4>
               <ion-icon name="call-outline"></ion-icon>
-              +27...<a
+              <span class="contact-margin-left">+27...</span>
+              <a
                 href="https://www.linkedin.com/in/mpilo-dlamini-38600b149/"
                 class="link--decoration"
                 >message via linkedIn</a
@@ -625,6 +637,7 @@ CLASSES
                   </li>
                 </ul>
               </div>
+              <hr />
               <ul class="cv-work-ul">
                 <li><strong>Role:</strong> Test Engineer</li>
                 <li><strong>Company:</strong> Standard Bank</li>
