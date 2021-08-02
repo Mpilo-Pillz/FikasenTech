@@ -50,7 +50,7 @@ a {
           <router-link to="/training">Training</router-link>
         </span>
         <span class="nav-item">
-          <router-link to="/login">Login</router-link>
+          <router-link to="/cv">CV</router-link>
         </span>
       </nav>
     </div>
