@@ -16,7 +16,7 @@
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
   /*Big smartphones [426px -> 600px]*/
   .services-offered {
     display: flex;

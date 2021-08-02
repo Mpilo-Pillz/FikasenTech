@@ -57,7 +57,7 @@
   object-fit: cover;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
   .jumbotron {
     text-align: center;
     &--align {
@@ -85,7 +85,7 @@
       Software Developer, Software Development Engineer in Test
     </h4>
     <div class="jumbotron--align">
-      <button class="btn">Employment History</button>
+      <button class="btn" @click="goToTraining">View Training</button>
       <button class="btn" @click="goToCV">View CV</button>
     </div>
   </section>
@@ -97,6 +97,10 @@ export default {
   methods: {
     goToCV() {
       this.$router.push("cv");
+    },
+
+    goToTraining() {
+      this.$router.push("training");
     },
   },
 };

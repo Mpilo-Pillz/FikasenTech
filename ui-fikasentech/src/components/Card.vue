@@ -36,7 +36,7 @@
 
 .project {
   &__article {
-    max-width: 30rem;
+    width: 30rem;
     padding: 2rem;
   }
   &__img {
@@ -66,7 +66,7 @@ ul.stack-items {
     border: solid #c5c5c5 1px;
     height: auto;
     width: 100%;
-    margin: 2rem;
+    // margin: 2rem;
     padding: 0;
     display: flex;
     flex-direction: column-reverse;
@@ -82,6 +82,7 @@ ul.stack-items {
   }
   .project {
     &__article {
+      width: 100%;
       display: flex;
       flex-direction: column;
     }

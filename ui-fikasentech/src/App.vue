@@ -45,6 +45,7 @@ body {
 }
 .btn {
   border: none;
+  background-color: #fff;
   // border-radius: 5px;
   font-weight: 800;
   margin: 2rem 1rem;
@@ -139,7 +140,7 @@ p {
   color: #fff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
   .btn {
     margin: 0.5rem;
   }

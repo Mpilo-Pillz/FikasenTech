@@ -13,61 +13,6 @@ const actions = {
     // const response = await makeRequest.get("/projects");
     const response = [
       {
-        id: 1,
-        title: "Village Web",
-        description:
-          "Village Web is every resident's answer to affordable 21st-century living. ",
-        slug: "village-web",
-        url: "http://villageweb.co.za/",
-        image:
-          "https://res.cloudinary.com/mpilopillz/image/upload/v1627840116/timeenergy_vjorsn.png",
-        published_at: "2021-07-20T04:47:56.696Z",
-        created_at: "2021-07-20T04:43:04.927Z",
-        updated_at: "2021-08-01T17:50:49.768Z",
-        stacks: [
-          {
-            id: 1,
-            name: "React",
-            proficiency: 85,
-            thumbnail:
-              "https://res.cloudinary.com/mpilopillz/image/upload/v1627756498/react_ymz4lk.svg",
-            published_at: "2021-07-20T04:54:17.153Z",
-            created_at: "2021-07-20T04:53:44.421Z",
-            updated_at: "2021-07-31T18:40:55.963Z",
-          },
-          {
-            id: 7,
-            name: "PostgreSQL",
-            proficiency: 50,
-            thumbnail:
-              "https://res.cloudinary.com/mpilopillz/image/upload/v1627756497/postgresql_yeewlq.svg",
-            published_at: "2021-07-27T19:28:20.645Z",
-            created_at: "2021-07-27T19:28:18.819Z",
-            updated_at: "2021-07-31T18:39:04.678Z",
-          },
-          {
-            id: 4,
-            name: "NestJS",
-            proficiency: 60,
-            thumbnail:
-              "https://res.cloudinary.com/mpilopillz/image/upload/v1627756497/nestjs_kghd8d.svg",
-            published_at: "2021-07-27T19:27:25.925Z",
-            created_at: "2021-07-27T19:27:22.890Z",
-            updated_at: "2021-07-31T18:36:59.835Z",
-          },
-          {
-            id: 9,
-            name: "Docker",
-            proficiency: 20,
-            thumbnail:
-              "https://res.cloudinary.com/mpilopillz/image/upload/v1627757216/docker_kzv4yk.svg",
-            published_at: "2021-07-27T19:28:52.492Z",
-            created_at: "2021-07-27T19:28:50.414Z",
-            updated_at: "2021-07-31T18:47:15.195Z",
-          },
-        ],
-      },
-      {
         id: 2,
         title: "Time Energy",
         description:
@@ -75,7 +20,8 @@ const actions = {
         slug: "swazi-tunes",
         url: "http://time-energy.co.za/",
         image:
-          "https://res.cloudinary.com/mpilopillz/image/upload/v1627840117/villageweb_elwgjp.png",
+          "https://res.cloudinary.com/mpilopillz/image/upload/v1627840116/timeenergy_vjorsn.png",
+
         published_at: "2021-07-27T19:13:53.778Z",
         created_at: "2021-07-27T19:13:46.050Z",
         updated_at: "2021-08-01T17:50:32.647Z",
@@ -177,13 +123,68 @@ const actions = {
           },
           {
             id: 25,
-            name: "SQLite",
+            name: "PostgreSQL",
             proficiency: 50,
             thumbnail:
-              "https://res.cloudinary.com/mpilopillz/image/upload/v1627813846/sqlite_tuzean.svg",
+              "https://res.cloudinary.com/mpilopillz/image/upload/v1627756497/postgresql_yeewlq.svg",
             published_at: "2021-08-01T10:31:07.322Z",
             created_at: "2021-08-01T10:31:04.566Z",
             updated_at: "2021-08-01T10:31:07.332Z",
+          },
+        ],
+      },
+      {
+        id: 1,
+        title: "Village Web",
+        description:
+          "Village Web is every resident's answer to affordable 21st-century living. ",
+        slug: "village-web",
+        url: "http://villageweb.co.za/",
+        image:
+          "https://res.cloudinary.com/mpilopillz/image/upload/v1627840117/villageweb_elwgjp.png",
+        published_at: "2021-07-20T04:47:56.696Z",
+        created_at: "2021-07-20T04:43:04.927Z",
+        updated_at: "2021-08-01T17:50:49.768Z",
+        stacks: [
+          {
+            id: 1,
+            name: "React",
+            proficiency: 85,
+            thumbnail:
+              "https://res.cloudinary.com/mpilopillz/image/upload/v1627756498/react_ymz4lk.svg",
+            published_at: "2021-07-20T04:54:17.153Z",
+            created_at: "2021-07-20T04:53:44.421Z",
+            updated_at: "2021-07-31T18:40:55.963Z",
+          },
+          {
+            id: 7,
+            name: "PostgreSQL",
+            proficiency: 50,
+            thumbnail:
+              "https://res.cloudinary.com/mpilopillz/image/upload/v1627756497/postgresql_yeewlq.svg",
+            published_at: "2021-07-27T19:28:20.645Z",
+            created_at: "2021-07-27T19:28:18.819Z",
+            updated_at: "2021-07-31T18:39:04.678Z",
+          },
+          {
+            id: 4,
+            name: "NestJS",
+            proficiency: 60,
+            thumbnail:
+              "https://res.cloudinary.com/mpilopillz/image/upload/v1627756497/nestjs_kghd8d.svg",
+            published_at: "2021-07-27T19:27:25.925Z",
+            created_at: "2021-07-27T19:27:22.890Z",
+            updated_at: "2021-07-31T18:36:59.835Z",
+          },
+          {
+            id: 9,
+            name: "Docker",
+            proficiency: 20,
+            thumbnail:
+              "https://res.cloudinary.com/mpilopillz/image/upload/v1627757216/docker_kzv4yk.svg",
+            published_at: "2021-07-27T19:28:52.492Z",
+            created_at: "2021-07-27T19:28:50.414Z",
+            updated_at: "2021-07-31T18:47:15.195Z",
           },
         ],
       },
@@ -193,7 +194,7 @@ const actions = {
         description:
           "Website for Fikasentani Technoligies. Yes I built this website too.",
         slug: "fikasentech",
-        url: null,
+        url: "https://fikasentech.web.app/",
         image:
           "https://res.cloudinary.com/mpilopillz/image/upload/v1627840116/fikasentech_hlr4sy.png",
         published_at: "2021-07-27T19:20:44.074Z",

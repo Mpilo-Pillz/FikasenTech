@@ -21,12 +21,13 @@ header {
 }
 
 main {
+  background-color: #fff;
   padding: 20px;
 }
 
 /* classes */
 
-.btn {
+.cv-btn {
   border: none;
   background-color: #454747;
   color: #fff;
@@ -139,8 +140,9 @@ main {
   margin-bottom: 20px;
 }
 
-.projects {
+.cv-projects {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -558,7 +560,7 @@ CLASSES
             </ul>
           </div>
           <hr class="display-none" />
-          <button class="btn display-none" id="closeBackdrop">Close</button>
+          <button class="cv-btn display-none" id="closeBackdrop">Close</button>
         </section>
       </header>
       <main>
@@ -566,7 +568,7 @@ CLASSES
           <div class="text-align--center">
             <h1 class="about-me-heading cv--underline">Projects</h1>
           </div>
-          <div class="projects">
+          <div class="cv-projects">
             <span class="portfolio-project"
               ><a href="https://swazi-tunes.web.app/">Swazi Tunes</a></span
             >
@@ -575,11 +577,24 @@ CLASSES
                 >Clinic Workflow</a
               ></span
             >
-            <br />
+            <span class="portfolio-project"
+              ><a href="https://fikasentech.web.app/">FikasenTech</a></span
+            >
+            <span class="portfolio-project"
+              ><a href="http://time-energy.co.za/">Time Energy</a></span
+            >
+            <span class="portfolio-project"
+              ><a href="https://v101propertyads.netlify.app/"
+                >Property Ads</a
+              ></span
+            >
             <span class="portfolio-project"
               ><a href="https://mpilo-pillz.github.io/osiris-ng-test/"
                 >Random User Generator</a
               ></span
+            >
+            <span class="portfolio-project"
+              ><a href="http://villageweb.co.za/">Village Web</a></span
             >
           </div>
         </section>

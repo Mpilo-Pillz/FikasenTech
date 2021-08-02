@@ -22,7 +22,7 @@
   padding: 2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
   .employer {
     &--align {
       display: flex;

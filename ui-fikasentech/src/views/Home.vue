@@ -1,3 +1,10 @@
+<style lang="scss" scoped>
+@media only screen and (max-width: 1100px) {
+  .home {
+    padding: 1rem;
+  }
+}
+</style>
 <template>
   <div class="home">
     <Jumbotron />

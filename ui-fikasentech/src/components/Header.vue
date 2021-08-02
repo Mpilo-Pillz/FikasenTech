@@ -21,9 +21,10 @@ a {
   margin: 2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
   /*Big smartphones [426px -> 600px]*/
   #nav {
+    display: none;
     padding: 0;
   }
   .nav-item {
@@ -40,7 +41,7 @@ a {
 <template>
   <header class="header">
     <div class="limit-width">
-      <div class="fika-logo">FIKASENTECH</div>
+      <div class="fika-logo" @click="goToHome">FIKASENTECH</div>
       <nav id="nav">
         <span class="nav-item"> <router-link to="/">Home</router-link> </span>
         <span class="nav-item">
@@ -60,6 +61,11 @@ a {
 <script>
 export default {
   name: "Header",
+  methods: {
+    goToHome() {
+      this.$router.push("/");
+    },
+  },
 };
 </script>
 
