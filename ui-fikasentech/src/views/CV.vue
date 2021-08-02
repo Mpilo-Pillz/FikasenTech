@@ -533,7 +533,7 @@ CLASSES
               Formal Education
             </h3>
             <h3 class="cv-margin-bottom--sm cv-margin-top--sm">
-              Higer Education
+              Secondary Education
             </h3>
             <ul class="ul__list-style--inside ul__padding--sides">
               <li>
@@ -547,7 +547,7 @@ CLASSES
               <li>Sifundzani High School - Advanced Subsidiary Level</li>
             </ul>
             <h3 class="cv-margin-bottom--sm cv-margin-top--sm">
-              Higer Education
+              Higher and Tertiary Education
             </h3>
             <ul class="ul__list-style--inside ul__padding--sides">
               <li>
