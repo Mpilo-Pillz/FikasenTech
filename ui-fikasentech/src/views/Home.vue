@@ -23,9 +23,9 @@ export default {
     Jumbotron,
     AboutMe,
     Crafts,
-    Tools,
     WorkHistory,
     Project,
+    Tools,
   },
 };
 </script>

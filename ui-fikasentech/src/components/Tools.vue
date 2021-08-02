@@ -8,7 +8,7 @@
   flex-wrap: wrap;
 
   &__item {
-    min-width: 60rem;
+    width: 60rem;
   }
 
   &__progress {
