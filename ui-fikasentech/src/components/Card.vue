@@ -81,11 +81,7 @@ ul.stack-items {
       </ul>
       <a class="btn__link" :href="item.url">See the Website</a>
     </article>
-    <img
-      class="project__img"
-      src="https://picsum.photos/200/300"
-      :alt="item.title"
-    />
+    <img class="project__img" :src="item.image" :alt="item.title" />
   </div>
 </template>
 
