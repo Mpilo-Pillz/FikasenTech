@@ -1,4 +1,5 @@
 export const baseUrl = "http://localhost:1337";
+// export const baseUrl = "./api.json";
 
 export const makeRequest = {
   async post(url, body) {

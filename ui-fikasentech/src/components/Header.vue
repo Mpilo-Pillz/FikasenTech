@@ -20,6 +20,22 @@ a {
   text-decoration: none;
   margin: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  #nav {
+    padding: 0;
+  }
+  .nav-item {
+    text-decoration: none;
+    margin: 0.5rem;
+  }
+  .limit-width {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+}
 </style>
 <template>
   <header class="header">
