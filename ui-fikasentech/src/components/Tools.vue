@@ -15,6 +15,16 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 600px) {
+  .tools {
+    &__item {
+      width: 100%;
+    }
+    &__progress {
+      width: revert;
+    }
+  }
+}
 </style>
 
 <template>

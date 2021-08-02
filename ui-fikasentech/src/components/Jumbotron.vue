@@ -1,24 +1,24 @@
 <style lang="scss" scoped>
-.btn {
-  background-color: #fff;
-  border: none;
-  // border-radius: 5px;
-  font-weight: 800;
-  margin: 2rem 1rem;
-  padding: 10px 20px;
-  width: 20rem;
+// .btn {
+//   background-color: #fff;
+//   border: none;
+//   // border-radius: 5px;
+//   font-weight: 800;
+//   margin: 2rem 1rem;
+//   padding: 10px 20px;
+//   width: 20rem;
 
-  &__link {
-    text-decoration: none;
-  }
+//   &__link {
+//     text-decoration: none;
+//   }
 
-  &:hover {
-    background-color: #575454;
-    color: #fff;
-    cursor: pointer;
-    font-weight: 900;
-  }
-}
+//   &:hover {
+//     background-color: #575454;
+//     color: #fff;
+//     cursor: pointer;
+//     font-weight: 900;
+//   }
+// }
 
 .flex-center {
   display: flex;
@@ -38,6 +38,11 @@
   color: #fff;
   line-height: 30px;
   padding: 2rem 0 5rem 0;
+
+  &--align {
+    display: flex;
+    flex-direction: row;
+  }
 }
 .profile-pic {
   position: relative;
@@ -51,6 +56,22 @@
   transition: all 0.3s ease-out;
   object-fit: cover;
 }
+
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    text-align: center;
+    &--align {
+      flex-direction: column;
+    }
+    &-h1 {
+      font-size: 2rem;
+    }
+
+    &-h4 {
+      font-size: 1.4rem;
+    }
+  }
+}
 </style>
 <template>
   <section class="flex-center jumbotron compnent--mb">
@@ -59,9 +80,11 @@
       src="https://lh3.googleusercontent.com/pWGKsbC67uKkiC4xQKOPM4juc2DCUN9oqsBKqaqpRawSTFAeYfPTW-MhTnvFGEUJ3nMJoqsbY3x6rs_uqZb9nts9npWdjgUtI0W3jhDfYd9LuSa7DFj6q9R5apEXi0JyTiuSJqQV=w2400"
       alt="fikasentani"
     />
-    <h1>MT Fikasentani KN Dlamini</h1>
-    <h4>Software Developer, Software Development Engineer in Test</h4>
-    <div class="flex-row-center">
+    <h1 class="jumbotron-h1">MT Fikasentani KN Dlamini</h1>
+    <h4 class="jumbotron-h4">
+      Software Developer, Software Development Engineer in Test
+    </h4>
+    <div class="jumbotron--align">
       <button class="btn">Employment History</button>
       <button class="btn" @click="goToCV">View CV</button>
     </div>

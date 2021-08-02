@@ -11,12 +11,30 @@
 .crafts--title {
   margin: 1rem auto;
 }
+
+.services-offered {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .services-offered {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .crafts {
+    &-card {
+      width: 100%;
+    }
+  }
+}
 </style>
 
 <template>
   <section class="element-center--width compnent--mb">
     <h1 class="fikasentani-heading">Services</h1>
-    <div class="flex-row">
+    <div class="services-offered">
       <div
         class="card flex-space-evenly crafts-card shadow-lg"
         v-for="craft in crafts"

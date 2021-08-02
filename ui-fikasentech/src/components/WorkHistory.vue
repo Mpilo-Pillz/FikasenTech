@@ -11,18 +11,31 @@
   line-height: 2;
   min-width: 35rem;
   text-align: center;
+
+  &--align {
+    display: flex;
+  }
 }
 
 .work-summary {
   line-height: 2;
   padding: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .employer {
+    &--align {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
 </style>
 <template>
   <section class="">
     <h1 class="fikasentani-heading">Work History</h1>
     <div
-      class="card flex-row shadow-lg"
+      class="card employer--align shadow-lg"
       v-for="work in allWorkHistorys"
       :key="work.id"
     >

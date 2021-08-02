@@ -59,6 +59,50 @@ ul.stack-items {
     margin: 1rem 2rem;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    background-color: #fff;
+    border: solid #c5c5c5 1px;
+    height: auto;
+    width: 100%;
+    margin: 2rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    &--img {
+      height: 100%;
+    }
+
+    &__text {
+      color: #2196f3;
+    }
+  }
+  .project {
+    &__article {
+      display: flex;
+      flex-direction: column;
+    }
+    &__img {
+      // display: none;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  ul.stack-items {
+    display: flex;
+    flex-direction: column;
+    // align-items: stretch;
+    // justify-content: space-between;
+    // width: 100%; /* play with this number to get spacings correct */
+
+    & > li {
+      margin: 1rem;
+    }
+  }
+}
 </style>
 <template>
   <div

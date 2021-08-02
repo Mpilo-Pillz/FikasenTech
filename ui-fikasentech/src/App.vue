@@ -134,4 +134,10 @@ body {
   background-color: #fff;
   color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    margin: 0.5rem;
+  }
+}
 </style>
