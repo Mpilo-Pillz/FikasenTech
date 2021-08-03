@@ -93,6 +93,20 @@ main {
   padding: 1rem;
 }
 
+.employer-app {
+  background-color: #454747;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 10px;
+  padding: 0.5px;
+}
+
+.employer-applications {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 10px 10px 0;
+}
+
 .modal-backdrop {
   display: none;
 }
@@ -642,6 +656,31 @@ CLASSES
                   company products and promotions.
                 </li>
               </ul>
+              <br />
+              <section>
+                <h1>Projects</h1>
+                <div class="employer-applications">
+                  <a href="https://www.therangers.ug/" class="employer-app"
+                    >https://www.therangers.ug/</a
+                  >
+                  <a href="https://www.betway.co.mz/" class="employer-app"
+                    >https://www.betway.co.mz/</a
+                  >
+                  <a href="https://www.betwaycares.co.za" class="employer-app"
+                    >https://www.betwaycares.co.za</a
+                  >
+                  <a
+                    href="https://www.betway.co.za/freedomdayleaderboard/"
+                    class="employer-app"
+                    >https://www.betway.co.za/freedomdayleaderboard</a
+                  >
+                  <a
+                    href="https://www.betwaypartnersafrica.com/offers/first-deposit/"
+                    class="employer-app"
+                    >https://www.betwaypartnersafrica.com/offers/first-deposit</a
+                  >
+                </div>
+              </section>
             </div>
             <div id="workExperienceDisplay">
               <hr />
@@ -686,6 +725,31 @@ CLASSES
                   </li>
                 </ul>
               </div>
+              <br />
+              <section>
+                <h1>Projects</h1>
+                <div class="employer-applications">
+                  <a href="https://www.betway.co.za/" class="employer-app"
+                    >https://www.betway.co.za/</a
+                  >
+                  <a href="https://www.osiristrading.com/" class="employer-app"
+                    >https://www.osiristrading.com/</a
+                  >
+                  <a
+                    href="https://www.betway.co.za/offers/live-games"
+                    class="employer-app"
+                    >https://www.betway.co.za/offers/live-games</a
+                  >
+                  <a href="https://www.gmgaming.com.mt/" class="employer-app"
+                    >https://www.gmgaming.com.mt/</a
+                  >
+                  <a
+                    href="https://www.betway.co.za/offers/signup/"
+                    class="employer-app"
+                    >https://www.betway.co.za/offers/signup</a
+                  >
+                </div>
+              </section>
               <hr />
               <ul class="cv-work-ul">
                 <li><strong>Role:</strong> Test Engineer</li>
@@ -723,7 +787,17 @@ CLASSES
                   </li>
                 </ul>
               </div>
-
+              <br />
+              <section>
+                <h1>Projects</h1>
+                <div class="employer-applications">
+                  <a
+                    href="https://onlinebanking.standardbank.co.za/#/login"
+                    class="employer-app"
+                    >https://onlinebanking.standardbank.co.za/#/login</a
+                  >
+                </div>
+              </section>
               <hr />
             </div>
           </div>
