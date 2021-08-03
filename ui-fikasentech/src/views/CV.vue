@@ -403,7 +403,7 @@ CLASSES
     <div class="paper paper--max-width shadow">
       <header>
         <section class="header-name-profession">
-          <h1 class="cv-font--lg">Mpilo TFKN Dlamini</h1>
+          <h1 class="cv-font--lg">MT Fikasentani KN Dlamini</h1>
           <h1 class="cv-margin-bottom--md">Software Engineer</h1>
           <span class="view-profile" id="toggle" @click="onShowProfile"
             >click to view my profile</span
