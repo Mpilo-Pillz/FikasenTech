@@ -830,6 +830,31 @@ CLASSES
         <section class="about-me">
           <div class="text-align--center">
             <h1 class="about-me-heading cv--underline">References</h1>
+
+            <h2>Standard Bank References</h2>
+            <ul>
+              <li>Andre Naidoo - Portfolio Manager - Accenture</li>
+              <li>Francis Seegers - Executive - QOT Solutions</li>
+              <li>Shane Abrahams - CEO - QOT Solutions</li>
+            </ul>
+
+            <hr />
+
+            <h2>Osiris Trading References</h2>
+            <ul>
+              <li>
+                Lucky Hlakaza - Senior Developer - BMW <br />
+                <strong>website: https://www.luckza.me/ </strong>
+              </li>
+              <li>
+                Ndimphiwe Mayekiso - Developer Tech Lead - Osiris Trading <br />
+                <strong>website: https://ndimphiwe.com/ </strong>
+              </li>
+              <li>
+                Siseko Nomavila - Senior Developer - BMW <br />
+                <strong>website: https://siseko.me/</strong>
+              </li>
+            </ul>
           </div>
 
           <br />
