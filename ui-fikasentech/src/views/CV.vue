@@ -393,17 +393,28 @@ CLASSES
 } */
 </style>
 <template>
-  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div
+    class="modal-backdrop"
+    id="modalBackdrop"
+    :class="{ 'toggle-view': showProfile }"
+    @click="onHideProfile"
+  ></div>
   <article class="cv-wrapper">
     <div class="paper paper--max-width shadow">
       <header>
         <section class="header-name-profession">
           <h1 class="cv-font--lg">Mpilo TFKN Dlamini</h1>
           <h1 class="cv-margin-bottom--md">Software Engineer</h1>
-          <span class="view-profile" id="toggle">click to view my profile</span>
+          <span class="view-profile" id="toggle" @click="onShowProfile"
+            >click to view my profile</span
+          >
         </section>
-        <section id="myProfile" class="my-profile shadow">
-          <div class="close" id="closeIcon">
+        <section
+          id="myProfile"
+          class="my-profile shadow"
+          :class="{ 'toggle-view': showProfile }"
+        >
+          <div class="close" id="closeIcon" @click="onHideProfile">
             <ion-icon name="close-outline"></ion-icon>
           </div>
           <div class="profile-image">
@@ -859,5 +870,18 @@ CLASSES
 <script>
 export default {
   name: "CV",
+  data() {
+    return {
+      showProfile: false,
+    };
+  },
+  methods: {
+    onShowProfile() {
+      this.showProfile = true;
+    },
+    onHideProfile() {
+      this.showProfile = false;
+    },
+  },
 };
 </script>
