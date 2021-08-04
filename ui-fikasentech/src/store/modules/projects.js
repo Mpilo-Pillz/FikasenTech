@@ -211,26 +211,6 @@ const actions = {
             created_at: "2021-07-27T19:26:34.859Z",
             updated_at: "2021-07-31T18:42:23.664Z",
           },
-          {
-            id: 8,
-            name: "Strapi",
-            proficiency: 60,
-            thumbnail:
-              "https://res.cloudinary.com/mpilopillz/image/upload/v1627757216/strapi_ilyqsg.svg",
-            published_at: "2021-07-27T19:28:37.803Z",
-            created_at: "2021-07-27T19:28:36.078Z",
-            updated_at: "2021-08-01T10:44:21.406Z",
-          },
-          {
-            id: 25,
-            name: "SQLite",
-            proficiency: 50,
-            thumbnail:
-              "https://res.cloudinary.com/mpilopillz/image/upload/v1627813846/sqlite_tuzean.svg",
-            published_at: "2021-08-01T10:31:07.322Z",
-            created_at: "2021-08-01T10:31:04.566Z",
-            updated_at: "2021-08-01T10:31:07.332Z",
-          },
         ],
       },
       {
@@ -399,3 +379,24 @@ const mutations = {
 };
 
 export default { state, getters, actions, mutations };
+
+// {
+//   id: 8,
+//   name: "Strapi",
+//   proficiency: 60,
+//   thumbnail:
+//     "https://res.cloudinary.com/mpilopillz/image/upload/v1627757216/strapi_ilyqsg.svg",
+//   published_at: "2021-07-27T19:28:37.803Z",
+//   created_at: "2021-07-27T19:28:36.078Z",
+//   updated_at: "2021-08-01T10:44:21.406Z",
+// },
+// {
+//   id: 25,
+//   name: "SQLite",
+//   proficiency: 50,
+//   thumbnail:
+//     "https://res.cloudinary.com/mpilopillz/image/upload/v1627813846/sqlite_tuzean.svg",
+//   published_at: "2021-08-01T10:31:07.322Z",
+//   created_at: "2021-08-01T10:31:04.566Z",
+//   updated_at: "2021-08-01T10:31:07.332Z",
+// },
