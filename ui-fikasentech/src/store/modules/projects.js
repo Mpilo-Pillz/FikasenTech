@@ -94,7 +94,7 @@ const actions = {
         description:
           "Web app aimed at making advertising property To Let and For Sale",
         slug: "property-ads",
-        url: null,
+        url: "https://v101propertyads.netlify.app/",
         image:
           "https://res.cloudinary.com/mpilopillz/image/upload/v1627840116/propertyads_ivrdcb.png",
         published_at: "2021-07-27T19:17:57.532Z",
@@ -273,7 +273,7 @@ const actions = {
         title: "Online CV",
         description: "My personal online CV",
         slug: "online-cv",
-        url: null,
+        url: "https://mpilo-pillz.github.io/mtfknd-cv/",
         image:
           "https://res.cloudinary.com/mpilopillz/image/upload/v1627840116/onlinecv_nyvmm6.png",
         published_at: "2021-07-27T19:23:33.008Z",
