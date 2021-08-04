@@ -30,7 +30,7 @@ const actions = {
         employer: "Osiris Trading / Betway",
         start: "November 2018",
         end: "April 2021",
-        position: "JS Frontend Engineer at",
+        position: "Frontend Developer",
         summary:
           "Osiris Trading is a business that powers a global sports book called Betway. In my 2 and a half years at Osiris, I served as a developer and I built and maintained and tested the Betway sports betting web applications using Angular7, Kentico CMS HTML CSS and JavaScript consuming REST services. I also assisted QA with setting up a Test Automation framework for Web, iOS and Android Apps. I also built various mini games, leaderboards and promotional splash pages. I also trained a Junior Developer.",
         published_at: "2021-08-01T12:38:32.610Z",
