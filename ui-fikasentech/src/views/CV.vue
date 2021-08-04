@@ -565,13 +565,15 @@ CLASSES
             <ul class="ul__list-style--inside ul__padding--sides">
               <li>
                 Sifundzani High School - Internation General Certification of
-                Secondary Education
+                Secondary Education (IGCSE)
               </li>
               <li>
                 Sifundzani High School - Higer Internation General Certification
-                of Secondary Education
+                of Secondary Education (HIGCSE)
               </li>
-              <li>Sifundzani High School - Advanced Subsidiary Level</li>
+              <li>
+                Sifundzani High School - Advanced Subsidiary Level (AS Level)
+              </li>
             </ul>
             <h3 class="cv-margin-bottom--sm cv-margin-top--sm">
               Higher and Tertiary Education
@@ -658,8 +660,8 @@ CLASSES
                   Web Application.
                 </li>
                 <li>
-                  Consume content from Content Management Systems and render on
-                  to Angular Web Applications.
+                  Consume content from Content Management Systems and render
+                  onto Angular Web Applications.
                 </li>
                 <li>
                   Build and maintain small reusable web view
@@ -668,7 +670,7 @@ CLASSES
                 </li>
                 <li>
                   Use Angular, HTML, CSS and Javascript to build and maintain
-                  web apps that can make CRUD requests on to various APIS for
+                  web apps that can make CRUD requests onto various APIS for
                   various business problems, such as web apps for marketing
                   company products and promotions.
                 </li>
@@ -728,7 +730,7 @@ CLASSES
                     Appium.
                   </li>
                   <li>
-                    Create readable and maintainable that conform to user
+                    Create readable and maintainable tests that conform to user
                     acceptance criteria using Gherkin style syntax with SpecFlow
                     and Cucumber.
                   </li>
@@ -794,12 +796,12 @@ CLASSES
                     automated testing.
                   </li>
                   <li>
-                    Provide detailed test execution reports to various stake
-                    holders.
+                    Provide detailed test execution reports to various
+                    stakeholders.
                   </li>
                   <li>
                     Analyse business requirements documentation to create test
-                    requirements, and test cases to be excecuted manually or
+                    requirements, and test cases to be executed manually or
                     automated.
                   </li>
                 </ul>

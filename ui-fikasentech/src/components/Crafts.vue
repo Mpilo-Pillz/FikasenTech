@@ -79,7 +79,7 @@ export default {
           id: 3,
           title: "Mobile Development",
           description:
-            "Native mobile apps play a very important role in my life. My mobile phone is with me everywhere I go. As such I started off my programming journey by Learning Swift for iOS development and Java for Android development. I was introduced to Dart with Flutter and is now my preferred tool for building native mobile applications.",
+            "Native mobile apps play a very important role in my life. My mobile phone is with me everywhere I go. As such I started off my programming journey by Learning Swift for iOS development and Java for Android development. I was introduced to Dart with Flutter and it is now my preferred tool for building native mobile applications.",
           icon: "https://res.cloudinary.com/mpilopillz/image/upload/v1627816391/cross-platform_zzd78t.png",
           published_at: "2021-07-30T14:46:02.485Z",
           created_at: "2021-07-30T14:45:59.077Z",

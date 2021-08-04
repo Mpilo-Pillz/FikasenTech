@@ -93,7 +93,7 @@ export default {
           id: 3,
           title: "Property Ads",
           description:
-            "Web app aimed at making advertising property for let and for sale",
+            "Web app aimed at making advertising property To Let and For Sale",
           slug: "property-ads",
           url: "https://v101propertyads.netlify.app/",
           image:

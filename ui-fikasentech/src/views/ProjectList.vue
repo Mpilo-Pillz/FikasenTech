@@ -16,7 +16,7 @@
       <p>
         My desire to be a world class Software Engineer is great. As such I am
         constantly practicing to sharpen my craft. Outside of working hours I
-        have collaborated with other senior developers to turn ideas in to
+        have collaborated with other senior developers to turn ideas into
         software helping me improve as a developer whiles exposing me to a
         variety of Tools and Frameworks. I have worked on the projects below.
       </p>

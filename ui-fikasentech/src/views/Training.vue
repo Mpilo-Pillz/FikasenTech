@@ -56,7 +56,7 @@ h1 {
         with certificates of completion obtained. I use Udemy, YouTube, Head
         First Programming text book series and Developer Documentation (mostly
         MDN and W3Schools) as my source of learning. I learn by doing (coding),
-        applying my knowledge by building web apps.
+        and applying my knowledge by building web apps.
       </p>
     </div>
     <div class="training">

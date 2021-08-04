@@ -92,7 +92,7 @@ const actions = {
         id: 3,
         title: "Property Ads",
         description:
-          "Web app aimed at making advertising property for let and for sale",
+          "Web app aimed at making advertising property To Let and For Sale",
         slug: "property-ads",
         url: null,
         image:
