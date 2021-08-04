@@ -116,6 +116,7 @@ main {
   color: white;
   display: none;
   left: 0;
+  line-height: 2;
   opacity: 0;
   padding: 20px;
   position: absolute;
@@ -462,18 +463,16 @@ CLASSES
               <a
                 href="https://www.linkedin.com/in/mpilo-dlamini-38600b149/"
                 class="link--decoration"
-                >My Linked-in</a
+                >My LinkedIn</a
               >
             </h4>
             <h4>
               <ion-icon name="call-outline"></ion-icon>
-              <span class="contact-margin-left">+27...</span>
               <a
                 href="https://www.linkedin.com/in/mpilo-dlamini-38600b149/"
                 class="link--decoration"
-                >message via linkedIn</a
+                >Please send message via LinkedIn</a
               >
-              for rest
             </h4>
           </div>
 
@@ -568,8 +567,8 @@ CLASSES
                 Secondary Education (IGCSE)
               </li>
               <li>
-                Sifundzani High School - Higer Internation General Certification
-                of Secondary Education (HIGCSE)
+                Sifundzani High School - Higher Internation General
+                Certification of Secondary Education (HIGCSE)
               </li>
               <li>
                 Sifundzani High School - Advanced Subsidiary Level (AS Level)
@@ -580,7 +579,8 @@ CLASSES
             </h3>
             <ul class="ul__list-style--inside ul__padding--sides">
               <li>
-                PC Training and Business College - Higer Certificate in IT
+                PC Training and Business College - Higher Certificate in
+                Information Technology (HCIT)
               </li>
               <li>ISTQB - Certified Testing Foundations</li>
               <li>ISTQB - Certified Agile Tester</li>
