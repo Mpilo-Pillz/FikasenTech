@@ -233,7 +233,7 @@ main {
 /* IDs */
 
 #modalBackdrop {
-  background-color: hsla(0, 0%, 0%, 0.69);
+  // background-color: hsla(0, 0%, 0%, 0.69);
   height: 100%;
   position: fixed;
   width: 100%;
@@ -585,7 +585,13 @@ CLASSES
             </ul>
           </div>
           <hr class="display-none" />
-          <button class="cv-btn display-none" id="closeBackdrop">Close</button>
+          <button
+            class="cv-btn display-none"
+            id="closeBackdrop"
+            @click="onHideProfile"
+          >
+            Close
+          </button>
         </section>
       </header>
       <main>
