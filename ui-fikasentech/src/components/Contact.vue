@@ -3,6 +3,7 @@
   display: flex;
   position: fixed;
 
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   flex-direction: column;
   height: 12rem;
   margin-right: 2.5rem;
@@ -24,9 +25,23 @@
     }
   }
 }
+
+@media only screen and (max-width: 1100px) {
+  .contact {
+    background-color: #eee;
+    position: static;
+    height: 4.5rem;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: none;
+    // top: 50%;
+    // left: 50%;
+  }
+}
 </style>
 <template>
-  <section class="contact shadow">
+  <section class="contact">
     <a href="https://github.com/Mpilo-Pillz/" target="_blank"
       ><img
         class="contact__img"

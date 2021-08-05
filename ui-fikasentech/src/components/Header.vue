@@ -5,6 +5,7 @@ a {
   text-decoration: none;
 }
 .header {
+  background-color: #eee;
   padding: 2rem;
 }
 
@@ -27,6 +28,9 @@ a {
 
 @media only screen and (max-width: 1100px) {
   /*Big smartphones [426px -> 600px]*/
+  .header {
+    padding: 0 2rem;
+  }
   #mobile-nav {
     margin: 1rem 0 0 0;
     display: flex;
@@ -99,9 +103,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.header {
-  background-color: #eee;
-}
-</style>
