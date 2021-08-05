@@ -1,18 +1,32 @@
 <style lang="scss" scoped>
 .contact {
-  height: 10rem;
+  display: flex;
+  position: fixed;
+
+  flex-direction: column;
+  height: 12rem;
+  margin-right: 2.5rem;
+  right: 0;
+  top: 50%;
 
   & > a {
     height: 100%;
+    margin: 0.1rem;
   }
 
   &__img {
+    background-color: #fff;
     height: 100%;
+    padding: 1rem;
+
+    &:hover {
+      background-color: #eee;
+    }
   }
 }
 </style>
 <template>
-  <section class="contact">
+  <section class="contact shadow">
     <a href="https://github.com/Mpilo-Pillz/" target="_blank"
       ><img
         class="contact__img"
