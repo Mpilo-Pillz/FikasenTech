@@ -10,7 +10,9 @@ h1 {
 }
 .training-certificate {
   width: 100%;
-  max-height: 35rem;
+  // height: 100%;
+  // width: 35rem;
+  // max-height: 35rem;
 }
 .training {
   color: #fff;
@@ -32,6 +34,7 @@ h1 {
     border-radius: 5px;
     margin: 1rem;
     background-color: #000;
+    width: 40rem;
   }
 
   &__text {
@@ -44,6 +47,12 @@ h1 {
   &__link {
     color: #fff;
     text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .training-certificate {
+    // max-height: 100% !important;
   }
 }
 </style>

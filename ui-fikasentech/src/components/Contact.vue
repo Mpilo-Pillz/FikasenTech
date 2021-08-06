@@ -5,7 +5,7 @@
 
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   flex-direction: column;
-  height: 12rem;
+  height: 6rem;
   margin-right: 2.5rem;
   right: 0;
   top: 50%;
@@ -17,7 +17,7 @@
 
   &__img {
     background-color: #fff;
-    height: 100%;
+    height: 5rem;
     padding: 1rem;
 
     &:hover {
@@ -31,6 +31,7 @@
     background-color: #eee;
     position: static;
     height: 4.5rem;
+
     width: 100%;
     flex-direction: row;
     justify-content: center;
